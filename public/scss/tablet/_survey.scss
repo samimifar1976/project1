@@ -1,0 +1,290 @@
+
+.mainsurvey{
+
+    width: 100%;
+    height: 960px;
+    position: relative;
+    top: 1294px;
+
+    
+.survey{
+
+    width: 83%;
+    height: 960px;    
+    z-index: 3;
+    
+   
+    display: block;   
+    margin: 0 auto;
+    .survey__left{
+        width: 634px;
+        height: 760px;
+        
+
+        .vertical{
+            position: absolute;
+            width: 28px;
+            height: 500px;
+            border-radius: 24px;
+            background: #023047;
+            left: 187px;
+            top: 198px;
+
+        }
+
+        .surveylefttop{
+            position: absolute;
+            z-index: 2;
+            width: 634px;
+            height: 195px;
+            border-radius: 24px;
+            border: none;
+            background: #FFFFFF;
+            margin-top: 0;
+            left: 100px;
+            top: 229px;
+            box-shadow: 0 9px 36px 0 #00000033;
+
+
+            .surveylefttop__up{
+                width: 634px;
+                height: 75px;
+                border-radius: 24px;
+                border: none;
+                background: #6F7DFB;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+                >p{
+                    width: 570px;
+                    display: inline-block;
+                    font-family: Raleway-ExtraBold;
+                    font-size: 18px;
+                    font-weight: 900;
+                    line-height: 27px;
+                    color: #FFFFFF;
+                    text-align: left;
+                    
+
+                }
+
+            }
+
+            .surveylefttop__down{
+                
+
+
+
+                .surveylettop__down_left{
+
+                    width: 344px;
+                    height: 59px;
+                    display: flex;
+                    flex-flow: column wrap;
+                    margin: 32px 30.5px 258px 30.5px;
+                    justify-content: center;
+
+                    >h3{
+                        font-family: Raleway-ExtraBold;
+                        font-size: 24px;
+                        font-weight: 900;
+                        line-height: 28.8px;
+                        color: #023047;                        
+
+                    }
+
+                    >p{
+                        font-family: Raleway;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 21.6px;
+                        text-align: left;
+
+                    }
+
+                }
+
+                .surveylettop__down_right{
+                    
+                    
+
+                    img{
+
+                        
+                        width: 120px;
+                        height: 120px;
+                        position: absolute;
+                        left: 482px;
+                        top: 63px;
+                        
+
+                    }
+                }
+            }
+        }
+
+        .surveyleftbotton{
+
+            width: 634px;
+            height: 195px;
+            background-color: #FFFFFF;
+            border-radius: 24px;
+            border: none;
+            z-index: 2;
+            position: absolute;
+            top: 464px;
+            left: 100px;
+            box-shadow: 0 9px 36px 0 #00000033;
+
+            .surveyleftbotton__up{
+
+                width: 634px;
+                height: 75px;
+                background: #DA722C;
+                border-radius: 24px;
+                border: none;
+                display: flex;
+                
+                align-items: center;
+
+
+                >p{
+                    font-family: Raleway-ExtraBold;
+                    font-size: 18px;
+                    font-weight: 900;
+                    line-height: 27px;
+                    text-align: left;
+                    color: #FFFFFF;
+                    display: inline-block;
+                    margin-left: 32px;
+
+                }
+
+            }
+
+            .surveyleftbotton__down{
+
+               
+
+                .surveyleftbotton__down__left{
+
+                    width: 344px;
+                    height: 59px;
+                    display: flex;
+                    flex-flow: column wrap;
+                    margin: 32px 30.5px 258px 30.5px;
+                    
+
+                    >h3{
+                        width: 153px;
+                        font-family: Raleway-ExtraBold;
+                        font-size: 24px;
+                        font-weight: 900;
+                        line-height: 28.8px;
+                        color: #023047;                        
+
+                    }
+
+                    >p{
+                        width: 164px;
+                        font-family: Raleway;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 21.6px;
+                        text-align: left;
+                        
+
+                    }
+
+                }
+
+                .surveyleftbotton__down__right{
+
+                                                          
+
+                    >img{
+
+                        width: 120px;
+                        height: 120px;
+                        position: absolute;                                      
+                        left: 482px;
+                        top: 63px;
+                        
+
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    .survey__right{
+
+        width: 634px;
+        height: 164px;
+
+        position: absolute;
+        right: 60px;
+        top: 0px;
+
+        >h3{
+
+            width: 634px;
+            height: 48px;
+            font-family: Raleway-ExtraBold;
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 48px;
+            text-align: left;
+            color: #023047;
+            margin-bottom: 16px;
+
+
+
+        }
+
+        >p{
+
+            width: 615px;
+                        
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 32px;
+            text-align: left;
+            color: #023047;
+            text-wrap: wrap;
+
+        }
+
+        >button{
+            width: 167px;
+            height: 59px;
+            background-color: #DA722C;
+            border-radius: 24px;
+            border: none;            
+            position: absolute;
+            top: 712px;
+            left: 470px;
+
+            >a{
+                text-decoration: none;
+                display: block;
+                font-family: Poppins-Bold;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 27px;
+                color: #FFFFFF;
+                
+
+
+            }
+        }
+    }
+
+    
+}
+}

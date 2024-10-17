@@ -1,0 +1,4 @@
+@import "./setting/setting.css";
+@import "./moble/moble.css" only screen and (min-width:414px);
+@import "./tablet/tables.css" only screen and (min-width:834px);
+@import "./desktop/desktop.css" only screen and (min-width:1366px);
